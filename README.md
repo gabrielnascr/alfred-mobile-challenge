@@ -8,7 +8,7 @@ Este é um projeto para testar meus conhecimentos técnicos pra vaga de fullstac
 
 ## Tecnologias utilizadas
 
-Linguagens e tecnologias: TypeScript/JavaScript, Expo, React Native, Styled Components, Prettier, Eslint e outros.
+TypeScript/JavaScript, Expo, React Native, Styled Components, Prettier, Eslint e outros.
 
 ## Setup do projeto
 
