@@ -17,8 +17,8 @@ export function Routes() {
         tabBarOptions={{
           showLabel: false,
           style: {
-            height: 70,
             backgroundColor: colors.blue_300,
+            padding: 15,
           },
         }}
       >

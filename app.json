@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "alfred-mobile-challenge",
-    "slug": "alfred-mobile-challenge",
+    "name": "Pharma App",
+    "slug": "pharma-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
