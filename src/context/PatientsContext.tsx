@@ -157,7 +157,7 @@ export function PatientesProvider({ children }: PatientProviderProps) {
     setShowPacientModal(value);
   };
 
-  const handleMoreResults = () => {
+  const handleMoreResults = useCallback(() => {
     if (loadingMoreResults) {
       return;
     }
@@ -165,7 +165,7 @@ export function PatientesProvider({ children }: PatientProviderProps) {
     setLoadingMoreResults(true);
     setSearchPage(searchPage + 1);
     getApiData();
-  }
+  }, [loadingMoreResults,searchPage])
 
   return (
     <PatientContext.Provider

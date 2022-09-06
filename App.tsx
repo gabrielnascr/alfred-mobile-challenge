@@ -10,6 +10,11 @@ import {
 import { PatientesProvider } from './src/context/PatientsContext';
 import { PatientDetailsModal } from './src/components';
 
+import { LogBox } from 'react-native';
+
+LogBox.ignoreLogs(['Warning: ...']);
+LogBox.ignoreAllLogs();
+
 export default function App() {
   let [fontsLoaded] = useFonts({
     Inter_400Regular,

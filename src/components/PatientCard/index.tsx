@@ -1,7 +1,8 @@
-import React, { useContext } from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
-import { RectButton, Swipeable } from 'react-native-gesture-handler';
+import React from 'react';
+import { TouchableOpacity, View } from 'react-native';
 import { Patient, usePatients } from '../../context/PatientsContext';
+
+import Swipeable from 'react-native-gesture-handler/Swipeable';
 import {
   Container,
   PacientInfoText,
@@ -11,9 +12,7 @@ import {
 } from './styles';
 
 import DeleteIcon from '../../assets/icons/delete-icon.svg';
-import FavoriteIcon from '../../assets/icons/heart-icon.svg';
 import colors from '../../global/styles/colors';
-import PatientDetailsModal from '../PatientDetailsModal';
 
 type PatientCardProps = {
   patient: Patient;

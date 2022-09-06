@@ -16,7 +16,7 @@ export const Modal = styled(Animated.View)`
   width: 100%;
   border-color: ${colors.red};
   border-width: 2px;
-  border-style: 'solid';
+  border-style: solid;
 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -30,7 +30,7 @@ export const PacientImageWrapper = styled.View`
 export const PacientImage = styled.Image`
   border-color: ${colors.red};
   border-width: 3px;
-  border-style: 'solid';
+  border-style: solid;
 
   width: 120px;
   height: 120px;

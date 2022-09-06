@@ -68,7 +68,7 @@ const HomeScreen = ({
               }}
               ListFooterComponent={
                 <View style={{ flex: 1, padding: 30 }}>
-                  {loadingMoreResults  && (
+                  {loadingMoreResults && (
                     <ActivityIndicator color={colors.red} size={'large'} />
                   )}
                 </View>

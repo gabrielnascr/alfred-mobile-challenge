@@ -11,7 +11,7 @@ interface TabBarProps {
 
 function TabBar({ focused, title, icon: Icon }: TabBarProps) {
   return (
-    <Container >
+    <Container>
       <Icon opacity={focused ? 1 : 0.5}  width={22} height={22} fill={colors.white} />
       <TabText focused={focused}>
         {title}
