@@ -23,4 +23,4 @@ expo start -c
 
 ## Referência
 
- ### [Desafio Técnico - Alfred 🏅](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ ### [Desafio Técnico - Alfred 🏅](https://github.com/Alfredctba/alfred-mobile-challenge)
